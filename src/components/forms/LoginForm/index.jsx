@@ -1,7 +1,6 @@
 import React from "react";
-import "./LoginForm.css";
+import "./index.css";
 import { Form, Input, Button } from "antd";
-import "antd/dist/antd.css";
 
 function LoginForm() {
   const onFinish = (e) => {

@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import LoginForm from "./component/LoginForm";
+import LoginPage from "./pages/LoginPage";
+import "antd/dist/antd.css";
 
 function App() {
   return (
-    <div className="loginContainer">
-      <LoginForm />
-    </div>
+    <LoginPage />
   );
 }
 
